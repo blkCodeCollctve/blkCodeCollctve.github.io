@@ -1,0 +1,14 @@
+<header class="m-header{% if page.url == '/' %} home {% endif %}">
+  <div class="wrapper-large">
+    <a href="{{ "index" | prepend: site.baseurl }}" class="header_logo">
+      <img src="../assets/bcc_slack_icon.png" alt="Black Code Collective logo">
+      <span class="visually-hidden">Black Code Collective</span>
+    </a>
+    <ul class="header_links">
+      <li><a href="{{ "about" | prepend: site.baseurl }}">Who We Are</a></li>
+      <li><a href="{{ "events" | prepend: site.baseurl }}">Events</a></li>
+      <li><a href="{{ "slack" | prepend: site.baseurl }}">Join</a></li>
+      <li><a href="{{ "contact" | prepend: site.baseurl }}">Reach Out</a></li>
+    </ul>
+  </div>
+</header>
