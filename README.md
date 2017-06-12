@@ -4,8 +4,8 @@
 Hi, This is the Black Code Collective Website Readme. So what do you want to do today?
 
 
-* [I want to run locally](run-local)
-* [I want to develop locally](develop-local)
+* [I want to run locally](#run-local)
+* [I want to develop locally](#develop-local)
 
 <h2 id="run-local">I want to run locally</h2>
 
