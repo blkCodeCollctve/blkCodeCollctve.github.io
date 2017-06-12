@@ -1,7 +1,7 @@
-<header class="m-header{% if page.url == '/' %} home {% endif %}">
+<header class="header{% if page.url == '/' %} home {% endif %}">
   <div class="wrapper-large">
-    <a href="{{ "index" | prepend: site.baseurl }}" class="header_logo">
-      <img src="../assets/bcc_slack_icon.png" alt="Black Code Collective logo">
+    <a href="{{ "index" | prepend: site.baseurl }}" class="home_link">
+      <img src="../assets/bcc_slack_icon.png" alt="Black Code Collective logo" class="header_logo">
       <span class="visually-hidden">Black Code Collective</span>
     </a>
     <ul class="header_links">
