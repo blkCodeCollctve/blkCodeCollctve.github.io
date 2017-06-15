@@ -1,5 +1,9 @@
 .header {
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
     .wrapper-large {
         max-width: 1400px;
         padding: 8px 16px;
