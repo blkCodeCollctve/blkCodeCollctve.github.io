@@ -1,1 +1,25 @@
 .brown{background-color: #946846;}
+.btn{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 21px 34px;
+    border: 2px solid #1c1c1c;
+}
+.btn:hover{
+    background-color: #1c1c1c;
+    color: #fff;
+}
+label, .sbmt{
+    display: block;
+    text-align: left;
+}
+textarea{
+    min-height: 100px
+}
+input, textarea{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0px;
+}

@@ -1,3 +1,21 @@
 <section class="lrg">
     <h2>Events</h2>
+    <div class="grid">
+            {% for event in site.events %}
+            {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
+                {% capture posttime %}{{event.date | date: '%s'}}{% endcapture %}
+                {% if posttime > now %}
+                    <div>
+                        <img src="{{event.img}}" alt="{{event.alt}}">
+                        <div>
+                            <h2>{{event.title}}</h2>
+                            <p>{{event.description}}</p>
+                            <a class="btn" href="{{event.link}}"> more details</a>
+                        </div>
+                    </div>
+                    {% else %}
+                    <h2>There are no events right now. Come back soon!</h2>
+                    {% endif %}
+            {% endfor %}
+    </div>
 </section>

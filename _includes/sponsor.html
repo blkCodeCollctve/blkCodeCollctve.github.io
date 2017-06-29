@@ -1,3 +1,8 @@
 <section class="med brown">
     <h2>Sponsors</h2>
+    <div class="cntr space">
+        {% for sponsor in site.sponsors %}
+        <a href="{{ sponsor.link }}"><img class="med-col" src="{{sponsor.img}}" alt="{{sponsor.alt}}"></a>
+        {% endfor %}
+    </div>
 </section>
