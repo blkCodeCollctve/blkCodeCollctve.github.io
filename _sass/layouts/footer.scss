@@ -1,0 +1,14 @@
+.icon {
+    float: right;
+    margin: 5px;
+    text-align: center;
+    a{
+        margin: 0px 5px;
+        img{
+            width: 32px;
+        }
+        img:hover {
+            border-bottom: 2px solid #968468;
+        }
+    }
+}

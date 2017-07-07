@@ -18,6 +18,7 @@
 .cntr{
   margin: 0 auto;
   text-align: center;
+  display: block;
 }
 .med-col{
     max-width: 700px;
@@ -28,6 +29,9 @@
 }
 .space{
   padding: 3em;
+}
+.more-space{
+  padding: 6em;
 }
 .wrapper{
   padding: 1em 2em;
@@ -42,9 +46,10 @@
   .grid {
     display: grid;
     grid-gap: 4px;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 400px);
     grid-row-gap: 40px;
     margin: 0 auto;
     width: 90%;
+    padding-top: 7em;
   }
 }

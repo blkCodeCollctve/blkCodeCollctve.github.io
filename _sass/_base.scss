@@ -1,3 +1,18 @@
+body{
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+a {
+    letter-spacing: .03em;
+    text-decoration: none;
+    border: 0;
+    color: #946846;
+}
+a:hover{
+    color: #2d0605
+}
+ul{
+    list-style-type: none;  
+}
 .brown{background-color: #946846;}
 .btn{
     display: inline-block;
@@ -5,6 +20,7 @@
     height: auto;
     padding: 21px 34px;
     border: 2px solid #1c1c1c;
+    background-color: #fff;
 }
 .btn:hover{
     background-color: #1c1c1c;
@@ -16,6 +32,12 @@ label, .sbmt{
 }
 textarea{
     min-height: 100px
+}
+.lght{
+    font-weight: 100;
+}
+.strng{
+    font-weight: 600;
 }
 input, textarea{
     display: inline-block;

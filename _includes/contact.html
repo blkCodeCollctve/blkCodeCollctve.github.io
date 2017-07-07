@@ -1,15 +1,16 @@
 <section class="lrg brown">
-    <h2>Contact</h2>
-    <form class="med-col med-space cntr" action="">
-        <label for="">Name:</label>
+    <a name="contact"></a>
+    <form class="med-col med-space cntr" action="https://formspree.io/blkCodeCollctve@gmail.com" method="POST">
+        <label for="name">Name:</label>
         <input name="name" type="text">
-        <label for="">Email:</label>
+        <label for="email">Email:</label>
         <input name="email" type="text">
-        <label for="">Subject:</label>
+        <label for="subject">Subject:</label>
         <input name="subject" type="text">
-        <label for="">Message:</label>
+        <label for="message">Message:</label>
         <textarea class="sml" name="message" type="text"></textarea>
-        <div class="sbmt"><a class="btn">Submit</a></div>
+        <div class="sbmt"><input class="btn" type="submit"/></div>
+        <input type="hidden" name="_next" value="/" />
     </form>
     
 </section>

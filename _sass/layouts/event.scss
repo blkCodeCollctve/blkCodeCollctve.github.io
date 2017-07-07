@@ -1,0 +1,21 @@
+.event {
+    padding: .5em 2em;
+    position: relative;
+}
+.event:after,
+.event:before {
+    border: .5em solid #946846;
+    bottom: 0;    
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 10%;
+}
+.event:after {
+    border-left: none;
+    right: 0;
+}
+.event:before {
+    border-right: none;
+    left: 0;
+}

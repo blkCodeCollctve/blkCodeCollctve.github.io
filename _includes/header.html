@@ -1,14 +1,14 @@
 <header class="header{% if page.url == '/' %} home {% endif %}">
   <div class="wrapper-large">
-    <a href="{{ "index" | prepend: site.baseurl }}" class="home_link">
+    <a href="{{ "#index" | prepend: site.baseurl }}" class="home_link">
       <img src="../assets/bcc_slack_icon.png" alt="Black Code Collective logo" class="header_logo">
-      <span class="visually-hidden">Black Code Collective</span>
+      <span class="lght"><span class="strng">Black</span>CodeCollective</span>
     </a>
     <ul class="header_links">
-      <li><a href="{{ "about" | prepend: site.baseurl }}">Who We Are</a></li>
-      <li><a href="{{ "events" | prepend: site.baseurl }}">Events</a></li>
-      <li><a href="{{ "slack" | prepend: site.baseurl }}">Join</a></li>
-      <li><a href="{{ "contact" | prepend: site.baseurl }}">Reach Out</a></li>
+      <li><a href="{{ "#join" | prepend: site.baseurl }}">Who We Are</a></li>
+      <li><a href="{{ "#contact" | prepend: site.baseurl }}">Reach Out</a></li>
+      <li><a href="{{ "#events" | prepend: site.baseurl }}">Events</a></li>
+      <li><a href="{{ "#sponsors" | prepend: site.baseurl }}">Sponsors</a></li>
     </ul>
   </div>
 </header>
