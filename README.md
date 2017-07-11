@@ -9,6 +9,7 @@ Hi, This is the Black Code Collective Website Readme. So what do you want to do 
 <h2 id="run-local">I want to run locally</h2>
 
  ```bash
-$ gem install jekyll bundler # only need to install once
+$ gem install bundler # only need to install once
+$ bundle install
 $ bundle exec jekyll serve
 ```
