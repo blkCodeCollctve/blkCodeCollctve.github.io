@@ -13,6 +13,9 @@ a:hover{
 ul{
     list-style-type: none;  
 }
+h1{
+    font-size: 2em;
+}
 .brown{background-color: #946846;}
 .btn{
     display: inline-block;
@@ -21,6 +24,7 @@ ul{
     padding: 21px 34px;
     border: 2px solid #1c1c1c;
     background-color: #fff;
+    overflow:hidden;
 }
 .btn:hover{
     background-color: #1c1c1c;

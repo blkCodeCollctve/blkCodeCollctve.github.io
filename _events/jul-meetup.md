@@ -1,7 +1,7 @@
 ---
-date:   2017-07-19
-title:  "July Meetup"
+date:   2017-07-25
+title:  "Color Coded x VoxMedia x BCC Presents: Mock Technical Interview Workshop"
 categories: event
-link: https://www.meetup.com/Black-Code-Collective/events/238892749/
-description: "6:30 PM Wednesday July 19, 2017"
+link: https://www.meetup.com/Black-Code-Collective/events/241270936/
+description: "6:30 PM to 8:00 PM - Tuesday, July 25, 2017"
 ---
