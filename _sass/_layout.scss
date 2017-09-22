@@ -50,11 +50,11 @@
 @supports (display:grid){
   .grid {
     display: grid;
-    grid-gap: 4px;
+    grid-gap: 69px;
     grid-template-columns: repeat(auto-fit, 400px);
     grid-row-gap: 40px;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     padding-top: 7em;
   }
 }
