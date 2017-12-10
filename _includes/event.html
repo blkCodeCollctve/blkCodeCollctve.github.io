@@ -2,8 +2,8 @@
     <a name='events'></a>
     <h1 class="cntr">Events</h1>
     <div class="grid">
-            {% for event in site.events %}
             {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
+            {% for event in site.events %}
                 {% capture posttime %}{{event.date | date: '%s'}}{% endcapture %}
                 {% if posttime > now %}
                     {% assign upcomingEvents = true %}                    
